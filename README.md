@@ -13,10 +13,6 @@
 - Libraries: Pandas, NumPy, Matplotlib, Seaborn, Scikit-Learn, Yellowbrick, Plotly, Spotipy
 - Jupyter Notebook (for running the main program in the IPython Notebook file)
 
-## Architecture Diagram/Flow
-
-[Insert Architecture Diagram or Flowchart if available]
-
 ## Installation
 
 1. Clone the repository:
@@ -34,10 +30,27 @@ cd your-repo
 3. Install the required dependencies:
 
 ```bash
-  pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 ## Usage
+
+### Import Dataset
+
+1. Download the Spotify dataset from Kaggle: [Spotify Dataset on Kaggle](https://www.kaggle.com/datasets/vatsalmavani/spotify-dataset).
+2. Place the downloaded dataset file (e.g., `data.csv`) in the `data` directory of your project.
+
+### Add Spotify API Credentials
+
+1. Create a Spotify Developer account and create a new application: [Spotify Developer Dashboard](https://developer.spotify.com/dashboard/applications).
+2. Obtain your `Client ID` and `Client Secret` from the Spotify Developer Dashboard.
+3. Create a file named `.env` in the project directory.
+4. Add your Spotify API credentials to the `.env` file:
+
+```env
+SPOTIPY_CLIENT_ID=your-client-id
+SPOTIPY_CLIENT_SECRET=your-client-secret
+```
 
 ### Program (IPython Notebook)
 
@@ -66,3 +79,6 @@ jupyter notebook
 - van der Maaten, L., & Hinton, G. (2008). Visualising data using t-SNE.
 - Spotify for Developers. (n.d.). [Spotify Web API](https://developer.spotify.com/documentation/web-api/)
 - Spotipy. (n.d.). [Spotipy Documentation](https://spotipy.readthedocs.io/en/2.19.0/)
+```
+
+This structure provides clear instructions for users to import the dataset from Kaggle and add their Spotify API credentials. Adjust the content based on your project's specific details and structure.
