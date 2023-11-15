@@ -79,6 +79,3 @@ jupyter notebook
 - van der Maaten, L., & Hinton, G. (2008). Visualising data using t-SNE.
 - Spotify for Developers. (n.d.). [Spotify Web API](https://developer.spotify.com/documentation/web-api/)
 - Spotipy. (n.d.). [Spotipy Documentation](https://spotipy.readthedocs.io/en/2.19.0/)
-```
-
-This structure provides clear instructions for users to import the dataset from Kaggle and add their Spotify API credentials. Adjust the content based on your project's specific details and structure.
